@@ -16,6 +16,8 @@ const certificateName = "devismaker.client";
 const certFilePath = path.join(baseFolder, `${certificateName}.pem`);
 const keyFilePath = path.join(baseFolder, `${certificateName}.key`);
 
+console.log(certFilePath);
+
 if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
     if (0 !== child_process.spawnSync('dotnet', [
         'dev-certs',
@@ -26,7 +28,7 @@ if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
         'Pem',
         '--no-password',
     ], { stdio: 'inherit', }).status) {
-        throw new Error("Could not create certificate.");
+      throw new Error(`Could not create certificate. ${certFilePath}`);
     }
 }
 
