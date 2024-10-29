@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevisMaker.Server", "DevisMaker.Server\DevisMaker.Server.csproj", "{D6B41FB0-C682-41E3-A3FE-71EA1AC3C260}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "devismaker.client", "devismaker.client\devismaker.client.esproj", "{84638F0C-53A7-42E6-8F27-F4685974555D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B41FB0-C682-41E3-A3FE-71EA1AC3C260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B41FB0-C682-41E3-A3FE-71EA1AC3C260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B41FB0-C682-41E3-A3FE-71EA1AC3C260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B41FB0-C682-41E3-A3FE-71EA1AC3C260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84638F0C-53A7-42E6-8F27-F4685974555D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1E92E07-90C4-4D73-B8C8-9B823B45090B}
+	EndGlobalSection
+EndGlobal

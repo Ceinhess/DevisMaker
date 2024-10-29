@@ -1,0 +1,6 @@
+@DevisMaker.Server_HostAddress = http://localhost:5251
+
+GET {{DevisMaker.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
